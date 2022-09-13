@@ -1,0 +1,22 @@
+{
+  "name": "plus-new",
+  "version": "1.0.0",
+  "description": "Web Page for Plus Marketing Agency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiznaiper/plus-new.git"
+  },
+  "keywords": [
+    "marketing"
+  ],
+  "author": "Luis Olivárez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiznaiper/plus-new/issues"
+  },
+  "homepage": "https://github.com/luiznaiper/plus-new#readme"
+}
