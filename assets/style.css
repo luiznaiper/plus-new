@@ -1,0 +1,95 @@
+:root {
+  /* Colors */
+  --main-color: #00a69f;
+  --main-text-color: #323232;
+  --secondary-text-color: #77787a;
+  --black: #201e1c;
+  --just-white: #fff;
+  --grey: #bababa;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/*General styles*/
+.full-screen {
+  height: 100vh;
+}
+
+.display-none {
+  display: none;
+}
+
+/*Home styles*/
+
+main {
+  background-color: var(--black);
+  color: var(--just-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./images/home/fondo-homepage-plus.png');
+}
+
+.main__logo-plus {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.main__logo-plus img {
+  width: 150px;
+}
+
+.main__type-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.main__type-section span {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.main__type-section h3 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.main__button-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__button-section button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.8rem;
+  color: var(--just-white);
+}
+
+.main__button-section .contacto {
+  background-color: transparent;
+  margin-bottom: 30px;
+  border: 1px solid var(--main-color);
+  font-weight: 700;
+}
+
+.main__button-section .servicios {
+  background-color: var(--main-color);
+  margin-bottom: 30px;
+}
