@@ -76,24 +76,25 @@ main {
 }
 
 .main__button-section button {
+  justify-content: center;
   width: 150px;
   height: 50px;
   border-radius: 30px;
-  border: none;
   font-size: 1.8rem;
   color: var(--just-white);
+  border: 2px solid var(--main-color);
 }
 
 .main__button-section .contacto {
   background-color: transparent;
   margin-bottom: 30px;
-  border: 1px solid var(--main-color);
   font-weight: 700;
 }
 
 .main__button-section .servicios {
   background-color: var(--main-color);
   margin-bottom: 30px;
+  font-weight: 700;
 }
 
 /*Sección de servicios*/
