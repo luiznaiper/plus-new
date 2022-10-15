@@ -146,15 +146,16 @@ main {
 }
 
 .servicios__contenedor-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 20px 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-left: 24px;
+  padding-bottom: 16px;
 }
 
 .servicios__caja-de-servicios {
+  display: inline-block;
+  margin-right: 8px;
   position: relative;
   min-width: 250px;
   height: 370px;
@@ -203,7 +204,7 @@ main {
 }
 
 .servicios__caja-de-servicios-content h2 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   z-index: 1;
   transition: 0.5s;
   margin-bottom: 15px;
