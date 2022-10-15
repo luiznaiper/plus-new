@@ -1,0 +1,18 @@
+.servicios__caja-de-servicios-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: var(--soft-white);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.servicios__caja-de-servicios-box:hover {
+  transform: translateY(-50px);
+}

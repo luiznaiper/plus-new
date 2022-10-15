@@ -14,10 +14,15 @@
       href="assets/images/apple-touch-favicon-plus-marketing.png"
     />
 
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <link
       rel="stylesheet"
-      href="./assets/tablet.css"
+      href="./src/css/tablet.css"
+      media="(min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/css/desktop.css"
       media="(min-width: 1024px)"
     />
   </head>
@@ -37,7 +42,7 @@
     <main class="home-main full-screen display-none">
       <div class="main__logo-plus">
         <img
-          src="assets/images/plus-marketing-logo-blanco.png"
+          src="./src/images/plus-marketing-logo-blanco.png"
           alt="Logo de Plus Marketing"
         />
       </div>
@@ -51,75 +56,85 @@
       </div>
     </main>
     <section class="servicios">
-      <h2>Agencia de Marketing Digital</h2>
-      <p>
-        ¿Qué le hace falta a tu empresa? ¡No todos los negocios necesitan las
-        mismas cosas! Es un grave error querer cubrir todos los canales:
-        recuerda “Menos es más” ¡Cuéntanos más de tu negocio! En Plus Marketing
-        nos encargaremos de desarrollar las estrategias de marketing necesarias
-        para
-      </p>
-      <div class="servicios__contenedor-principal">
-        <!-- Inicia Caja de servicios  -->
-        <div class="servicios__caja-de-servicios">
-          <h3>Web Design</h3>
-          <h2>Desarrollo Web</h2>
-          <ul>
-            <li>Aplicaciones Web</li>
-            <li>Landing Page</li>
-            <li>Página corporativa</li>
-            <li>Blog</li>
-            <li>Ecommerce</li>
-            <li>Expertos en React JS</li>
-          </ul>
-          <button>Portafolio de Desarrollo Web</button>
+      <div class="servicios-info-container">
+        <h2>Agencia de Marketing Digital</h2>
+        <p>
+          <span>¿Qué le hace falta a tu empresa?</span> <br />
+          ¡No todos los negocios necesitan las mismas cosas! Es un grave error
+          querer cubrir todos los canales: recuerda “Menos es más” ¡Cuéntanos
+          más de tu negocio! En <strong> Plus Marketing</strong> nos
+          encargaremos de desarrollar las
+          <strong>estrategias de marketing</strong> necesarias para tu negocio.
+          ¿Qué esperas para <a href="#contacto">contactarnos</a> ?
+        </p>
+      </div>
+      <div class="servicios__contenedor-del-contenedor">
+        <div class="servicios__contenedor-principal">
+          <!-- Inicia Caja de servicios  -->
+          <div class="servicios__caja-de-servicios">
+            <div class="servicios__caja-de-servicios-box">
+              <div class="servicios__caja-de-servicios-content">
+                <span>01</span>
+                <h2>Desarrollo Web</h2>
+                <ul>
+                  <li>Aplicaciones Web</li>
+                  <li>Landing Page</li>
+                  <li>Página corporativa</li>
+                  <li>Blog</li>
+                  <li>Ecommerce</li>
+                  <li>Expertos en React JS</li>
+                </ul>
+                <a href="#portafolio">Portafolio</a>
+              </div>
+            </div>
+          </div>
+          <!-- Termina Caja de servicios -->
+          <!-- Inicia Caja de servicios  -->
+          <div class="servicios__caja-de-servicios display-none">
+            <h3>Social Media</h3>
+            <h2>Estrategias de Marketing</h2>
+            <ul>
+              <li>Facebook Ads</li>
+              <li>Instagram Ads</li>
+              <li>Google Ads</li>
+              <li>Estrategias SEO</li>
+              <li>Community Manager</li>
+              <li>Email Marketing</li>
+            </ul>
+            <button>Portafolio de Marketing</button>
+          </div>
+          <!-- Termina Caja de servicios -->
+          <!-- Inicia Caja de servicios  -->
+          <div class="servicios__caja-de-servicios display-none">
+            <h3>Multimedia</h3>
+            <h2>Audiovisuales</h2>
+            <ul>
+              <li>Fotografía profesional</li>
+              <li>Videos corporativos</li>
+              <li>Conducción y locución</li>
+              <li>Comunicación interna</li>
+              <li>Drones</li>
+              <li>Recorridos virtuales</li>
+            </ul>
+            <button>Portafolio de Medios Audiovisuales</button>
+          </div>
+          <!-- Termina Caja de servicios -->
+          <!-- Inicia Caja de servicios  -->
+          <div class="servicios__caja-de-servicios display-none">
+            <h3>Design</h3>
+            <h2>Diseño Gráfico</h2>
+            <ul>
+              <li>Logotipos</li>
+              <li>Manual de Identidad</li>
+              <li>Papelería general</li>
+              <li>Menús interactivos</li>
+              <li>Anuncios y flyers</li>
+              <li>Diseño UX / UI</li>
+            </ul>
+            <button>Portafolio de Diseño Gráfico</button>
+          </div>
+          <!-- Termina Caja de servicios -->
         </div>
-        <!-- Termina Caja de servicios -->
-        <!-- Inicia Caja de servicios  -->
-        <div class="servicios__caja-de-servicios display-none">
-          <h3>Social Media</h3>
-          <h2>Estrategias de Marketing</h2>
-          <ul>
-            <li>Facebook Ads</li>
-            <li>Instagram Ads</li>
-            <li>Google Ads</li>
-            <li>Estrategias SEO</li>
-            <li>Community Manager</li>
-            <li>Email Marketing</li>
-          </ul>
-          <button>Portafolio de Marketing</button>
-        </div>
-        <!-- Termina Caja de servicios -->
-        <!-- Inicia Caja de servicios  -->
-        <div class="servicios__caja-de-servicios display-none">
-          <h3>Multimedia</h3>
-          <h2>Audiovisuales</h2>
-          <ul>
-            <li>Fotografía profesional</li>
-            <li>Videos corporativos</li>
-            <li>Conducción y locución</li>
-            <li>Comunicación interna</li>
-            <li>Drones</li>
-            <li>Recorridos virtuales</li>
-          </ul>
-          <button>Portafolio de Medios Audiovisuales</button>
-        </div>
-        <!-- Termina Caja de servicios -->
-        <!-- Inicia Caja de servicios  -->
-        <div class="servicios__caja-de-servicios display-none">
-          <h3>Design</h3>
-          <h2>Diseño Gráfico</h2>
-          <ul>
-            <li>Logotipos</li>
-            <li>Manual de Identidad</li>
-            <li>Papelería general</li>
-            <li>Menús interactivos</li>
-            <li>Anuncios y flyers</li>
-            <li>Diseño UX / UI</li>
-          </ul>
-          <button>Portafolio de Diseño Gráfico</button>
-        </div>
-        <!-- Termina Caja de servicios -->
       </div>
     </section>
     <footer>
