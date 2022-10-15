@@ -34,14 +34,14 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url('./images/home/fondo-homepage-plus.png');
 }
 
 .main__logo-plus {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .main__logo-plus img {
@@ -92,4 +92,30 @@ main {
 .main__button-section .servicios {
   background-color: var(--main-color);
   margin-bottom: 30px;
+}
+
+.servicios {
+  height: 90vh;
+}
+
+footer {
+  height: 10vh;
+  background: var(--black);
+  color: var(--just-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  color: #00a69f;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-weight: 600;
 }

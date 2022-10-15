@@ -34,7 +34,7 @@
         </ul>
       </nav>
     </header>
-    <main class="home-main full-screen">
+    <main class="home-main full-screen display-none">
       <div class="main__logo-plus">
         <img
           src="assets/images/plus-marketing-logo-blanco.png"
@@ -50,7 +50,7 @@
         <button class="servicios">Ver Servicios</button>
       </div>
     </main>
-    <section class="servicios display-none">
+    <section class="servicios">
       <h2>Agencia de Marketing Digital</h2>
       <p>
         ¿Qué le hace falta a tu empresa? ¡No todos los negocios necesitan las
@@ -76,7 +76,7 @@
         </div>
         <!-- Termina Caja de servicios -->
         <!-- Inicia Caja de servicios  -->
-        <div class="servicios__caja-de-servicios">
+        <div class="servicios__caja-de-servicios display-none">
           <h3>Social Media</h3>
           <h2>Estrategias de Marketing</h2>
           <ul>
@@ -91,7 +91,7 @@
         </div>
         <!-- Termina Caja de servicios -->
         <!-- Inicia Caja de servicios  -->
-        <div class="servicios__caja-de-servicios">
+        <div class="servicios__caja-de-servicios display-none">
           <h3>Multimedia</h3>
           <h2>Audiovisuales</h2>
           <ul>
@@ -106,7 +106,7 @@
         </div>
         <!-- Termina Caja de servicios -->
         <!-- Inicia Caja de servicios  -->
-        <div class="servicios__caja-de-servicios">
+        <div class="servicios__caja-de-servicios display-none">
           <h3>Design</h3>
           <h2>Diseño Gráfico</h2>
           <ul>
@@ -122,9 +122,19 @@
         <!-- Termina Caja de servicios -->
       </div>
     </section>
-    <footer class="display-none">
-      <span>Copyright 2022 Plus Marketing Derechos reservados</span>
-      <a href="#">Términos y condiciones</a> <a href="#">Aviso de Privacidad</a>
+    <footer>
+      <span
+        >&copy;
+        <script type="text/JavaScript">
+
+          document.write(new Date().getFullYear());
+        </script>
+        <strong>Plus Marketing</strong> | Derechos reservados</span
+      >
+      <div>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Aviso de Privacidad</a>
+      </div>
     </footer>
   </body>
 </html>
