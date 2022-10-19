@@ -255,6 +255,17 @@ main {
   color: #000;
 }
 
+.servicios__list-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.servicios__list-item i {
+  padding-top: 10px;
+  margin-right: 5px;
+}
+
 footer {
   height: 10vh;
   background: var(--black);
