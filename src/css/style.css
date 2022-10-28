@@ -269,6 +269,19 @@ main {
 /*Sección de portafolio*/
 .portafolio {
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portafolio .clients-container__logo {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+}
+
+.portafolio .clients-container__logo img {
+  width: 60px;
 }
 
 footer {
