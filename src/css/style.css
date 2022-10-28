@@ -266,6 +266,11 @@ main {
   margin-right: 5px;
 }
 
+/*Sección de portafolio*/
+.portafolio {
+  height: 90vh;
+}
+
 footer {
   height: 10vh;
   background: var(--black);
