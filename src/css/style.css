@@ -20,6 +20,15 @@ html {
 }
 
 /*General styles*/
+h2 {
+  margin-top: 50px;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
 .full-screen {
   height: 100vh;
 }
@@ -123,12 +132,6 @@ main {
   align-items: center;
 }
 
-.servicios h2 {
-  margin-top: 50px;
-  font-size: 2rem;
-  text-align: center;
-}
-
 .servicios p {
   text-align: justify;
   padding: 0 40px;
@@ -215,11 +218,11 @@ main {
 }
 
 .servicios__caja-de-servicios-content h2 {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   z-index: 1;
   transition: 0.5s;
   margin-bottom: 15px;
-  margin-top: 0;
+  margin-top: 5px;
   color: var(--main-color);
 }
 
@@ -269,21 +272,44 @@ main {
 /*Sección de portafolio*/
 .portafolio {
   height: 90vh;
+}
+
+.clients-container__slider-area {
+  width: 750px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  overflow: hidden;
+  padding: 2.5rem;
 }
 
-.portafolio .clients-container__logo {
+.clients-container__slider-area:hover {
+  animation-play-state: paused;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1100px, 0, 0);
+  }
+}
+
+.clients-container h2 {
+  margin-bottom: 30px;
+}
+.clients-container__logo {
+  animation: animate 25s alternate linear infinite;
+}
+
+.portafolio img {
   width: 60px;
-  height: 60px;
   background-color: red;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
-.portafolio .clients-container__logo img {
-  width: 60px;
-}
-
+/*Footer*/
 footer {
   height: 10vh;
   background: var(--black);
