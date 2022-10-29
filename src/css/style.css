@@ -27,6 +27,7 @@ h2 {
   font-weight: 800;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
+  padding: 0 10px;
 }
 
 .full-screen {
@@ -301,14 +302,14 @@ main {
 }
 
 .clients-container h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .clients-container__logo {
   animation: animate 25s alternate linear infinite;
 }
 
 .clientes img {
-  width: 60px;
+  width: 90px;
   background-color: red;
   border-radius: 50%;
   margin-right: 20px;
@@ -332,15 +333,33 @@ main {
   background-color: var(--black);
   box-shadow: 0 5px 10px var(--main-color);
   color: #fff;
+  animation: slide 0.4s linear;
 }
 
 .testimonios-container__main-slider {
   border-radius: 5px;
-  width: 350px;
+  width: 300px;
   padding: 20px;
   margin: 10px;
   position: relative;
   transform-style: preserve-3d;
+}
+
+@keyframes slide {
+  0% {
+    transform: rotateX(180deg);
+  }
+}
+
+.testimonios-container__main-slider > * {
+  animation: slideContent 0.2s linear 0.4s;
+}
+
+@keyframes slideContent {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
 }
 
 .testimonios-container__main-slider .icon {
@@ -378,6 +397,60 @@ main {
   font-size: 1.4rem;
   padding-top: 15px;
   font-style: italic;
+}
+
+.testimonios-container button {
+  margin-top: 15px;
+  background-color: #00a69f;
+  color: var(--just-white);
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid var(--main-color);
+}
+
+.testimonios-container button:hover {
+  background-color: transparent;
+  color: var(--main-color);
+}
+
+.testimonios-container {
+  display: none;
+  margin-top: 30px;
+}
+
+.active {
+  display: flex;
+}
+
+.testimonios #next,
+.testimonios #prev {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 2rem;
+  background-color: var(--just-white);
+  color: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px #3337;
+}
+
+.testimonios #next {
+  right: 2px;
+}
+
+.testimonios #prev {
+  left: -2px;
+}
+
+.testimonios #next:hover,
+.testimonios #prev:hover {
+  background-color: var(--grey);
+  color: var(--just-white);
 }
 
 /*Footer*/

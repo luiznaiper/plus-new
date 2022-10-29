@@ -76,7 +76,7 @@
       </div>
       <section class="testimonios">
         <h2>Testimonios de Plus Marketing</h2>
-        <div class="testimonios-container">
+        <div class="testimonios-container active">
           <div class="testimonios-container__main">
             <div class="testimonios-container__main-slider">
               <i class="fas fa-quote-right icon"></i>
@@ -86,7 +86,7 @@
                   alt=""
                 />
                 <div class="testimonios-container__info">
-                  <span>Puesto del Cliente</span>
+                  <span>Cliente1 </span>
                   <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -95,10 +95,6 @@
                     <i class="fas fa-star"></i>
                   </div>
                 </div>
-                <!-- <div class="testimonios-container__boton">
-                  <button>Ver clientes del Cliente</button>
-                  <button>Contactarnos</button>
-                </div> -->
               </div>
               <p class="testimonials-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -106,6 +102,7 @@
                 hic illo possimus sapiente dolor aliquam maiores et ex est omnis
                 natus veniam delectus.
               </p>
+              <button>Ver proyectos</button>
             </div>
           </div>
         </div>
@@ -119,7 +116,7 @@
                   alt=""
                 />
                 <div class="testimonios-container__info">
-                  <span>Puesto del Cliente</span>
+                  <span>Cliente 2</span>
                   <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -128,10 +125,6 @@
                     <i class="fas fa-star"></i>
                   </div>
                 </div>
-                <!-- <div class="testimonios-container__boton">
-                  <button>Ver clientes del Cliente</button>
-                  <button>Contactarnos</button>
-                </div> -->
               </div>
               <p class="testimonials-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -139,6 +132,7 @@
                 hic illo possimus sapiente dolor aliquam maiores et ex est omnis
                 natus veniam delectus.
               </p>
+              <button>Ver proyectos</button>
             </div>
           </div>
         </div>
@@ -152,7 +146,7 @@
                   alt=""
                 />
                 <div class="testimonios-container__info">
-                  <span>Puesto del Cliente</span>
+                  <span>Cliente 3</span>
                   <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -161,10 +155,6 @@
                     <i class="fas fa-star"></i>
                   </div>
                 </div>
-                <!-- <div class="testimonios-container__boton">
-                  <button>Ver clientes del Cliente</button>
-                  <button>Contactarnos</button>
-                </div> -->
               </div>
               <p class="testimonials-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -172,9 +162,20 @@
                 hic illo possimus sapiente dolor aliquam maiores et ex est omnis
                 natus veniam delectus.
               </p>
+              <button>Ver proyectos</button>
             </div>
           </div>
         </div>
+        <div
+          id="next"
+          class="fas fa-chevron-right"
+          onclick="testimonioNext()"
+        ></div>
+        <div
+          id="prev"
+          class="fas fa-chevron-left"
+          onclick="testimonioPrev()"
+        ></div>
       </section>
     </section>
     <footer>
@@ -192,4 +193,5 @@
       </div>
     </footer>
   </body>
+  <script type="text/javascript" src="./src/testimonial.js"></script>
 </html>
