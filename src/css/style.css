@@ -472,10 +472,10 @@ main {
 .portfolio-container .portfolio-container__card {
   position: relative;
   width: 300px;
-  height: 200px;
+  height: 180px;
   background-color: #fff;
   overflow: hidden;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 .portfolio-container .portfolio-container__card:before {
   content: '';
@@ -536,7 +536,7 @@ main {
 .portfolio-container .portfolio-container__card .pic1 {
   z-index: 100;
   width: 400px;
-  height: 200px;
+  height: 180px;
   background-image: url('../images/portafolio/portafolio-de-marketing.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
@@ -544,7 +544,7 @@ main {
 .portfolio-container .portfolio-container__card .pic2 {
   z-index: 100;
   width: 400px;
-  height: 200px;
+  height: 180px;
   background-image: url('../images/portafolio/portafolio-de-desarrollo-web.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
@@ -552,7 +552,7 @@ main {
 .portfolio-container .portfolio-container__card .pic3 {
   z-index: 100;
   width: 400px;
-  height: 200px;
+  height: 180px;
   background-image: url('../images/portafolio/portafolio-de-diseno-grafico.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
@@ -560,7 +560,7 @@ main {
 .portfolio-container .portfolio-container__card .pic4 {
   z-index: 100;
   width: 400px;
-  height: 200px;
+  height: 180px;
   background-image: url('../images/portafolio/portafolio-de-produccion-audiovisual.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
