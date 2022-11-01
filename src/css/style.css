@@ -133,23 +133,10 @@ main {
   align-items: center;
 }
 
-.servicios p {
-  text-align: justify;
-  padding: 0 40px;
-  padding-top: 20px;
-  font-size: 1.4rem;
-}
-
 .servicios span {
   font-weight: 600;
   text-align: center;
   display: block;
-}
-
-.servicios p a {
-  color: #00a69f;
-  text-decoration: none;
-  font-weight: 600;
 }
 
 .servicios .servicios__contenedor-del-contenedor {
@@ -462,12 +449,13 @@ main {
 .portfolio-container i {
   opacity: 0;
   font-size: 1.8rem;
-  color: #fff;
+  color: var(--just-white);
   will-change: transform;
   -webkit-transform: scale(0.1);
   transform: scale(0.1);
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  margin-bottom: 50px;
 }
 .portfolio-container h2 {
   pointer-events: none;
@@ -544,24 +532,36 @@ main {
   font-size: 40px;
   cursor: pointer;
 }
-.portfolio-container .portfolio-container__card p {
-  z-index: 99;
-  position: absolute;
-  top: 20px;
-  right: 70px;
-  color: #333;
-  opacity: 0.7;
-  font-size: 12px;
-  letter-spacing: 1px;
-  writing-mode: vertical-lr;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-.portfolio-container .portfolio-container__card .pic {
+
+.portfolio-container .portfolio-container__card .pic1 {
   z-index: 100;
   width: 400px;
   height: 200px;
-  background-image: url('https://images.unsplash.com/photo-1525543907410-b2562b6796d6?ixlib=rb-0.3.5&s=9ff8e5e718a6a40cbd0e1471235912f4&auto=format&fit=crop&w=3452&q=80');
+  background-image: url('../images/portafolio/portafolio-de-marketing.jpg');
+  background-size: 100% 100%;
+  filter: grayscale(100%);
+}
+.portfolio-container .portfolio-container__card .pic2 {
+  z-index: 100;
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/portafolio/portafolio-de-desarrollo-web.jpg');
+  background-size: 100% 100%;
+  filter: grayscale(100%);
+}
+.portfolio-container .portfolio-container__card .pic3 {
+  z-index: 100;
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/portafolio/portafolio-de-diseño-grafico.jpg');
+  background-size: 100% 100%;
+  filter: grayscale(100%);
+}
+.portfolio-container .portfolio-container__card .pic4 {
+  z-index: 100;
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/portafolio/portafolio-de-produccion-audiovisual.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
@@ -622,18 +622,23 @@ main {
 .portfolio-container .portfolio-container__card:hover button {
   transform: scale(16.5);
 }
-.portfolio-container .portfolio-container__card:hover p {
-  color: #fff;
-}
-.portfolio-container .portfolio-container__card:hover .pic {
+
+.portfolio-container .portfolio-container__card:hover .pic1 {
   filter: grayscale(0);
 }
-.portfolio-container .portfolio-container__card2 .pic {
-  background-image: url('https://images.unsplash.com/photo-1528785198459-ec50485704c7?ixlib=rb-0.3.5&s=3a2fc3039516555bbb2e9cd2967bd321&auto=format&fit=crop&w=1537&q=80');
+
+.portfolio-container .portfolio-container__card:hover .pic2 {
+  filter: grayscale(0);
 }
-.portfolio-container .portfolio-container__card2 button {
-  background-color: red;
+
+.portfolio-container .portfolio-container__card:hover .pic3 {
+  filter: grayscale(0);
 }
+
+.portfolio-container .portfolio-container__card:hover .pic4 {
+  filter: grayscale(0);
+}
+
 .dr {
   position: absolute;
   bottom: 16px;
