@@ -266,6 +266,11 @@ main {
 /*Sección de clientes*/
 .clientes {
   height: 90vh;
+  margin-top: -50px;
+}
+
+.clients-container h2 {
+  padding-top: 30px;
 }
 
 .clients-container__slider-area {
@@ -302,10 +307,10 @@ main {
 
 .clientes img {
   width: 90px;
-  background-color: red;
   border-radius: 50%;
   margin-right: 20px;
 }
+
 /*Testimonios*/
 
 .testimonios h2 {
@@ -316,7 +321,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 70px;
+  padding-top: 40px;
   position: relative;
   perspective: 1000px;
 }
@@ -384,15 +389,16 @@ main {
   margin-top: 5px;
 }
 
-.testimonios-text {
+.testimonials-text {
   color: var(--grey);
-  font-size: 1.4rem;
-  padding-top: 15px;
+  font-size: 1.2rem;
   font-style: italic;
+  padding: 10px;
 }
 
 .testimonios-container button {
   margin-top: 15px;
+  margin-left: 5px;
   background-color: #00a69f;
   color: var(--just-white);
   padding: 5px 10px;
@@ -417,7 +423,7 @@ main {
 .testimonios #next,
 .testimonios #prev {
   position: absolute;
-  top: 70%;
+  top: 60%;
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
