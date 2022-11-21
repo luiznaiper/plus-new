@@ -131,6 +131,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 1.4rem;
+}
+
+.servicios-info-container p {
+  padding: 30px;
+  text-align: justify;
 }
 
 .servicios span {
