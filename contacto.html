@@ -89,6 +89,22 @@
     </script> -->
   </head>
   <body>
+    <header>
+      <div class="mobile-container">
+        <button id="burger" class="open-main-nav">
+          <span class="burger"></span>
+        </button>
+        <nav class="main-nav" id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center">
@@ -110,7 +126,7 @@
                       id="form-message-success"
                       class="mb-4 w-100 text-center"
                     >
-                      Your message was sent, thank you!
+                      Tu mensaje ha sido enviado
                     </div>
                     <form
                       method="POST"
@@ -192,7 +208,15 @@
                           <span class="fa fa-map-marker"></span>
                         </div>
                         <div class="text">
-                          <p><span>Dirección:</span> Querétaro, México</p>
+                          <p>
+                            <span>Dirección:</span
+                            ><a
+                              href="https://goo.gl/maps/mvNJ5sGx1XECjgfu6"
+                              target="_blank"
+                              >Lic Manuel Gómez Morin no. 3970, Centro Sur,
+                              Querétaro, Qro.</a
+                            >
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -252,5 +276,7 @@
         <a href="#">Aviso de Privacidad</a>
       </div>
     </footer>
+      <!-- Main js -->
+  <script type="text/javascript" src="./src/js/index.js"></
   </body>
 </html>

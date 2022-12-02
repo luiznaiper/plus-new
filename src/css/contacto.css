@@ -3912,7 +3912,7 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: #bc9864;
+  color: var(--main-color);
 }
 a:hover,
 a:focus {
@@ -3939,11 +3939,11 @@ h5,
 }
 
 .bg-primary {
-  background: #bc9864 !important;
+  background: var(--main-color) !important;
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 2rem 0;
 }
 
 .ftco-no-pt {
@@ -3995,7 +3995,7 @@ h5,
 }
 .form-control:focus,
 .form-control:active {
-  border-color: #bc9864 !important;
+  border-color: var(--main-color) !important;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -4027,7 +4027,7 @@ textarea.form-control {
 }
 .dbox p span {
   font-weight: 500;
-  color: #bc9864;
+  color: var(--main-color);
   display: block;
 }
 .dbox p a {
@@ -4037,7 +4037,7 @@ textarea.form-control {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #bc9864;
+  background: var(--main-color);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -4081,8 +4081,8 @@ textarea.form-control {
   box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
 }
 .btn.btn-primary {
-  background: #bc9864 !important;
-  border-color: #bc9864 !important;
+  background: var(--main-color) !important;
+  border-color: var(--main-color) !important;
   color: #000;
   text-transform: uppercase;
   font-weight: 600;
@@ -4153,4 +4153,11 @@ textarea.form-control {
 .submit-form {
   display: flex;
   justify-content: center;
+}
+
+h3 {
+  color: var(--just-white);
+  padding: 4rem 0;
+  text-transform: uppercase;
+  font-size: 2.8rem;
 }
