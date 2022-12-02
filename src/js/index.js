@@ -1,7 +1,8 @@
-/*Typing*/
-let typed = new Typed('.typed', {
-  strings: ['MERCADÓLOGOS', 'PROGRAMADORES', 'PUBLICISTAS', 'PLUS'],
-  typeSpeed: 100,
-  backSpeed: 50,
-  loop: true,
+//mobile-menu
+let burger = document.getElementById('burger');
+let nav = document.getElementById('main-nav');
+
+burger.addEventListener('click', function (e) {
+  this.classList.toggle('is-open');
+  nav.classList.toggle('is-open');
 });

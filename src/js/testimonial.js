@@ -1,4 +1,4 @@
-/*Testomonial slider*/
+/*Testimonial slider*/
 
 let testimoniosContainer = document.querySelectorAll('.testimonios-container');
 let testimoniosIndex = 0;
