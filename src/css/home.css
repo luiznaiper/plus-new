@@ -1,0 +1,57 @@
+/*Home styles*/
+
+main {
+  background-color: var(--black);
+  color: var(--just-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/home/fondo-homepage-plus.png');
+}
+
+.main__logo-plus {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.main__logo-plus img {
+  width: 150px;
+}
+
+.main__type-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.main__type-section span {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.typed-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.typed-container span {
+  font-size: 2.4rem;
+  margin-bottom: 0;
+}
+
+.main__type-section h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.main__button-section {
+  display: flex;
+  flex-direction: column;
+}
+
