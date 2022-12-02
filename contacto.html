@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plus Marketing | Contacto</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="src/images/favicon-plus-marketing.ico"
+    />
+    <link
+      rel="”apple-touch-icon”"
+      href="src/images/apple-touch-favicon-plus-marketing.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/contacto.css" />
+    <!-- <script nonce="e496e38b-6466-4247-8c2d-5894ccb13b31">
+      (function (w, d) {
+        !(function (cM, cN, cO, cP) {
+          cM.zarazData = cM.zarazData || {};
+          cM.zarazData.executed = [];
+          cM.zaraz = { deferred: [], listeners: [] };
+          cM.zaraz.q = [];
+          cM.zaraz._f = function (cQ) {
+            return function () {
+              var cR = Array.prototype.slice.call(arguments);
+              cM.zaraz.q.push({ m: cQ, a: cR });
+            };
+          };
+          for (const cS of ['track', 'set', 'debug'])
+            cM.zaraz[cS] = cM.zaraz._f(cS);
+          cM.zaraz.init = () => {
+            var cT = cN.getElementsByTagName(cP)[0],
+              cU = cN.createElement(cP),
+              cV = cN.getElementsByTagName('title')[0];
+            cV && (cM.zarazData.t = cN.getElementsByTagName('title')[0].text);
+            cM.zarazData.x = Math.random();
+            cM.zarazData.w = cM.screen.width;
+            cM.zarazData.h = cM.screen.height;
+            cM.zarazData.j = cM.innerHeight;
+            cM.zarazData.e = cM.innerWidth;
+            cM.zarazData.l = cM.location.href;
+            cM.zarazData.r = cN.referrer;
+            cM.zarazData.k = cM.screen.colorDepth;
+            cM.zarazData.n = cN.characterSet;
+            cM.zarazData.o = new Date().getTimezoneOffset();
+            if (cM.dataLayer)
+              for (const cZ of Object.entries(
+                Object.entries(dataLayer).reduce((c_, da) => ({
+                  ...c_[1],
+                  ...da[1],
+                }))
+              ))
+                zaraz.set(cZ[0], cZ[1], { scope: 'page' });
+            cM.zarazData.q = [];
+            for (; cM.zaraz.q.length; ) {
+              const db = cM.zaraz.q.shift();
+              cM.zarazData.q.push(db);
+            }
+            cU.defer = !0;
+            for (const dc of [localStorage, sessionStorage])
+              Object.keys(dc || {})
+                .filter((de) => de.startsWith('_zaraz_'))
+                .forEach((dd) => {
+                  try {
+                    cM.zarazData['z_' + dd.slice(7)] = JSON.parse(
+                      dc.getItem(dd)
+                    );
+                  } catch {
+                    cM.zarazData['z_' + dd.slice(7)] = dc.getItem(dd);
+                  }
+                });
+            cU.referrerPolicy = 'origin';
+            cU.src =
+              '/cdn-cgi/zaraz/s.js?z=' +
+              btoa(encodeURIComponent(JSON.stringify(cM.zarazData)));
+            cT.parentNode.insertBefore(cU, cT);
+          };
+          ['complete', 'interactive'].includes(cN.readyState)
+            ? zaraz.init()
+            : cM.addEventListener('DOMContentLoaded', zaraz.init);
+        })(w, d, 0, 'script');
+      })(window, document);
+    </script> -->
+  </head>
+  <body>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5">
+            <h2 class="heading-section">¿Necesitas un experto en marketing</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-md-12">
+            <div class="wrapper">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="contact-wrap">
+                    <div
+                      id="form-message-warning"
+                      class="mb-4 w-100 text-center"
+                    ></div>
+                    <div
+                      id="form-message-success"
+                      class="mb-4 w-100 text-center"
+                    >
+                      Your message was sent, thank you!
+                    </div>
+                    <form
+                      method="POST"
+                      id="contactForm"
+                      name="contactForm"
+                      class="contactForm"
+                    >
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="name"
+                              id="name"
+                              placeholder="Nombre"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              class="form-control"
+                              name="email"
+                              id="email"
+                              placeholder="Email"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="subject"
+                              id="subject"
+                              placeholder="Servicio"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea
+                              name="message"
+                              class="form-control"
+                              id="message"
+                              cols="30"
+                              rows="8"
+                              placeholder="Mensaje"
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="submit"
+                              value="Enviar Mensaje"
+                              class="btn btn-primary"
+                            />
+                            <div class="submitting"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-lg-8 mb-5">
+                  <h3 class="mb-4 text-center">
+                    Contacta a <strong>Plus Marketing</strong>
+                  </h3>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="dbox w-100 text-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-map-marker"></span>
+                        </div>
+                        <div class="text">
+                          <p><span>Dirección:</span> Querétaro, México</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="dbox w-100 text-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text">
+                          <p>
+                            <span>Teléfonos:</span>
+                            <a href="tel:4426794154">442 679 4154</a><br />
+                            <a href="tel:4421390343">442 139 0343</a><br />
+                            <a href="tel:4428715751">442 871 5751</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="dbox w-100 text-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text">
+                          <p>
+                            <span>Email:</span>
+                            <a href="mailto@plusmarketing.mx"
+                              >contacto@plumarketing.mx</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <span
+        >&copy;
+        <script type="text/JavaScript">
+
+          document.write(new Date().getFullYear());
+        </script>
+        <strong>Plus Marketing</strong> | Derechos reservados</span
+      >
+      <div>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Aviso de Privacidad</a>
+      </div>
+    </footer>
+  </body>
+</html>
