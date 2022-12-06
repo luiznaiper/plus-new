@@ -14,6 +14,11 @@ a {
   color: var(--just-white);
 }
 
+.white-portfolio {
+  background-color: var(--just-white);
+  color: var(--black);
+}
+
 .container {
   width: 100%;
   position: relative;
@@ -37,21 +42,38 @@ a {
   opacity: 0.5;
   font-weight: 300;
 }
+
+.container__up-text .dark-span {
+  color: var(--main-text-color);
+}
+
 .next-project-btn {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 7rem;
 }
 
 .next-project-btn a {
   text-align: center;
 }
-.next-project-btn a:hover {
-  color: var(--main-color);
-}
 
 .next-project-btn a::before {
   background-color: transparent;
+}
+
+.next-project-btn .main-btn:hover {
+  color: var(--just-white);
+  background-color: var(--main-color);
+}
+
+.white-portfolio .next-project-btn .main-btn {
+  color: var(--main-color);
+}
+
+.white-portfolio .next-project-btn .main-btn:hover {
+  color: white;
 }
 
 .clr {
