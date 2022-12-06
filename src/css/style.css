@@ -224,8 +224,18 @@ a {
   font-weight: 700;
 }
 
+.main-btn:hover {
+  background-color: var(--main-color);
+}
+
 .secondary-btn {
   background-color: var(--main-color);
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.secondary-btn:hover {
+  background-color: transparent;
   margin-bottom: 30px;
   font-weight: 700;
 }
