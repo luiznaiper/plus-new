@@ -96,6 +96,14 @@ a {
   color: white;
 }
 
+.white-portfolio span {
+  color: var(--black);
+}
+
+.white-portfolio .secondary-btn:hover {
+  color: var(--main-color);
+}
+
 .clr {
   clear: both;
   padding: 0;
