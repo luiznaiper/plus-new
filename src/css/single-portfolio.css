@@ -63,6 +63,10 @@ a {
   font-weight: 300;
 }
 
+.white-portfolio .web-link {
+  color: var(--black);
+}
+
 .container__up-text .dark-span {
   color: var(--main-text-color);
 }
@@ -142,6 +146,11 @@ a {
 .ia-container > figure {
   position: relative;
   left: 0 !important;
+}
+
+/*Container en movile para 5*/
+.ia-container-5 .ia-container figure {
+  left: 35px;
 }
 
 .ia-container img {
