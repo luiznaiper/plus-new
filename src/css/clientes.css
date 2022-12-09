@@ -79,7 +79,11 @@
   text-align: center;
   padding: 0 100px;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 300;
+  font-style: italic;
+}
+.testimonios-slide strong {
+  font-weight: 400;
 }
 
 .quote-icon {
@@ -109,6 +113,7 @@
   transform: translateY(30px);
   height: 40px;
   width: 40px !important;
+  display: none !important;
 }
 
 .swiper-btn::after,
