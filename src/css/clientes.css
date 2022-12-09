@@ -1,11 +1,6 @@
 /*Sección de clientes*/
 .clientes {
   height: 90vh;
-  margin-top: -50px;
-}
-
-.clients-container h2 {
-  padding-top: 50px;
 }
 
 .clients-container__slider-area {
@@ -48,144 +43,91 @@
   margin: 20px 0;
 }
 
-.testimonios-container {
+.main-testimonios-container {
+  width: 100%;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
-  position: relative;
-  perspective: 1000px;
-}
-
-.testimonios-container__main {
-  background-color: var(--black);
-  box-shadow: 0 5px 10px var(--main-color);
-  color: #fff;
-  animation: slide 0.4s linear;
-}
-
-.testimonios-container__main-slider {
-  border-radius: 5px;
-  width: 300px;
-  padding: 20px;
-  margin: 10px;
-  position: relative;
-  transform-style: preserve-3d;
-}
-
-@keyframes slide {
-  0% {
-    transform: rotateX(180deg);
-  }
-}
-
-.testimonios-container__main-slider > * {
-  animation: slideContent 0.2s linear 0.4s;
-}
-
-@keyframes slideContent {
-  0% {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-}
-
-.testimonios-container__main-slider .icon {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 5rem;
-}
-
-.testimonios-container__testimonio {
-  display: flex;
-  align-items: center;
-}
-
-.testimonios-container__main-slider img {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 10px;
-}
-
-.testimonios-container__info span {
-  color: var(--main-color);
-  font-size: 2rem;
-}
-.testimonios-container__info .stars i {
-  color: yellow;
-  font-size: 1.5rem;
-  margin-top: 5px;
-}
-
-.testimonios-text {
-  color: var(--grey);
-  font-size: 1.2rem;
-  font-style: italic;
-  padding: 10px;
-}
-
-.testimonios-span {
-  margin-left: 10px;
-  padding-top: 10px;
-  font-size: 1.4rem;
-}
-
-.testimonios-container .button {
-  width: 220px;
-  margin-top: 25px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  padding: 5px 10px;
-  border-radius: 20px;
-  border: 2px solid var(--main-color);
-  font-size: 1.6rem;
-  font-weight: 400;
-}
-
-.testimonios-container .button:hover {
-  background-color: transparent;
-  color: var(--main-color);
+  margin-top: 3rem;
 }
 
 .testimonios-container {
-  display: none;
-  margin-top: 30px;
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
 }
 
-.active {
-  display: flex;
-}
-
-.testimonios #next,
-.testimonios #prev {
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 2rem;
-  background-color: var(--just-white);
-  color: var(--main-text-color);
-  cursor: pointer;
+.testimonios-image img {
+  height: 170px;
+  width: 170px;
+  object-fit: contain;
   border-radius: 50%;
-  box-shadow: 0 5px 10px #3337;
 }
 
-.testimonios #next {
-  right: 40px;
+.testimonios-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
-.testimonios #prev {
-  left: 40px;
+.testimonios-slide p {
+  text-align: center;
+  padding: 0 100px;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
-.testimonios #next:hover,
-.testimonios #prev:hover {
-  background-color: var(--grey);
-  color: var(--just-white);
+.quote-icon {
+  font-size: 3rem;
+  color: var(--main-color);
+}
+
+.testimonios-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nombre-del-testimonio {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.puesto-del-testimonio {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.swiper-btn {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transform: translateY(30px);
+  height: 40px;
+  width: 40px !important;
+}
+
+.swiper-btn::after,
+.swiper-btn::before {
+  font-size: 2rem !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: var(--main-color);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--main-color) !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0;
 }

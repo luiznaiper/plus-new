@@ -1,18 +1,13 @@
-/*Testimonial slider*/
-
-let testimoniosContainer = document.querySelectorAll('.testimonios-container');
-let testimoniosIndex = 0;
-
-const testimonioNext = () => {
-  testimoniosContainer[testimoniosIndex].classList.remove('active');
-  testimoniosIndex = (testimoniosIndex + 1) % testimoniosContainer.length;
-  testimoniosContainer[testimoniosIndex].classList.add('active');
-};
-
-const testimonioPrev = () => {
-  testimoniosContainer[testimoniosIndex].classList.remove('active');
-  testimoniosIndex =
-    (testimoniosIndex - 1 + testimoniosContainer.length) %
-    testimoniosContainer.length;
-  testimoniosContainer[testimoniosIndex].classList.add('active');
-};
+let swiper = new Swiper('.mySwiper', {
+  slidesPerView: 1,
+  grabCursor: true,
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
