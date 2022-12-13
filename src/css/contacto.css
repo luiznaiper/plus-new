@@ -4161,3 +4161,25 @@ h3 {
   text-transform: uppercase;
   font-size: 2.8rem;
 }
+
+.whatsapp {
+  position: fixed;
+  width: 6rem;
+  height: 6rem;
+  bottom: 11rem;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp::before {
+  background-color: transparent;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
