@@ -1,0 +1,15 @@
+h1 {
+  font-size: 1.6rem;
+}
+
+.main__button-section {
+  flex-direction: row;
+}
+
+.main__button-section .main-btn {
+  margin-right: 4rem;
+}
+
+.main__logo-plus img {
+  display: none;
+}

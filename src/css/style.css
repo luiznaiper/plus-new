@@ -65,6 +65,10 @@ a:hover::before {
 
 /*Mobile Menu*/
 /* Main menu positionning */
+.desktop-container {
+  display: none;
+}
+
 .main-nav {
   position: absolute;
   top: 0;

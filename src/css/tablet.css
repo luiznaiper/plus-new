@@ -24,18 +24,8 @@
 .button {
   width: 25rem;
   height: 7.5rem;
+  font-size: 3rem;
 }
 .main-btn {
   margin-bottom: 5rem;
-  font-size: 3rem;
-}
-
-.secondary-btn {
-  font-size: 3rem;
-}
-
-.secondary-btn:hover {
-  background-color: transparent;
-  margin-bottom: 30px;
-  font-weight: 700;
 }

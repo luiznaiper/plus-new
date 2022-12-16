@@ -1,3 +1,49 @@
+.burger {
+  display: none;
+}
+
+.desktop-container {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 2rem;
+}
+
+.desktop-container img {
+  width: 15rem;
+  margin-left: 5rem;
+}
+
+.desktop-nav ul {
+  display: flex;
+  margin-right: 5rem;
+}
+
+.desktop-nav li {
+  list-style: none;
+}
+
+.desktop-nav a {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  color: var(--soft-white);
+  font-weight: 300;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+.button {
+  font-size: 2rem;
+  width: 20rem;
+  height: 6rem;
+}
+
 .servicios__caja-de-servicios-box {
   position: absolute;
   top: 20px;
