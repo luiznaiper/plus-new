@@ -1,3 +1,6 @@
+main {
+  background-image: url('../images/home/fondo-homepage-plus-tablet.jpg');
+}
 .main__logo-plus img {
   width: 20rem;
 }
