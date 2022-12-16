@@ -1,0 +1,41 @@
+/*Navegador*/
+.burger:first-child {
+  width: 6rem;
+  height: 0.75rem;
+  margin-right: 2rem;
+}
+.burger::after,
+.burger::before {
+  height: 0.75rem;
+  position: relative;
+}
+
+.burger::after {
+  top: 2rem;
+  position: relative;
+}
+
+.burger::before {
+  top: 5rem;
+  position: relative;
+}
+
+/*Botones*/
+.button {
+  width: 25rem;
+  height: 7.5rem;
+}
+.main-btn {
+  margin-bottom: 5rem;
+  font-size: 3rem;
+}
+
+.secondary-btn {
+  font-size: 3rem;
+}
+
+.secondary-btn:hover {
+  background-color: transparent;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
