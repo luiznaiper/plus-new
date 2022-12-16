@@ -1,0 +1,35 @@
+h1 {
+  font-size: 2.4rem;
+}
+.servicios-info-container {
+  margin-top: 5rem;
+}
+
+.servicios-info-container span {
+  font-size: 2rem;
+}
+
+.servicios-info-container p {
+  padding: 5rem 10rem 0rem 10rem;
+  font-size: 1.8rem;
+}
+
+.servicios__caja-de-servicios {
+  margin-left: 2.5rem;
+  width: 30rem;
+  height: 40rem;
+}
+
+.servicios__caja-de-servicios-content h2 {
+  font-size: 1.8rem;
+}
+
+.servicios__caja-de-servicios-content h3 {
+  font-size: 1.4rem;
+}
+
+.servicios__caja-de-servicios-content li {
+  font-size: 1.6rem;
+}
+
+

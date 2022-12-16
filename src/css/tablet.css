@@ -1,4 +1,8 @@
 /*Navegador*/
+.mobile-container .main-nav ul {
+  font-size: 4rem;
+}
+
 .burger:first-child {
   width: 6rem;
   height: 0.75rem;

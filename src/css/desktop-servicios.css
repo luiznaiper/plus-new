@@ -1,0 +1,36 @@
+h1 {
+  margin-top: 3.3rem;
+}
+.servicios__caja-de-servicios {
+  margin-left: 2rem;
+  width: 25rem;
+  height: 35rem;
+}
+.servicios-info-container span {
+  padding: 1rem 2rem;
+}
+
+.servicios-info-container p {
+  padding: 2rem 20rem;
+}
+
+br {
+  display: none;
+}
+
+.servicios__caja-de-servicios-content h2 {
+  font-size: 1.4rem;
+}
+
+.servicios__caja-de-servicios-content h3 {
+  font-size: 1rem;
+}
+
+.servicios__caja-de-servicios-content li {
+  font-size: 1.4rem;
+}
+
+.servicios__caja-de-servicios-box:hover {
+  transform: translateY(-20px);
+  transition: 0.75s;
+}

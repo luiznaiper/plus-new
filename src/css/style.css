@@ -3,7 +3,7 @@
   --main-color: #00a69f;
   --main-text-color: #323232;
   --secondary-text-color: #77787a;
-  --black: #201e1c;
+  --black: #1f1f1f;
   --just-white: #fff;
   --soft-white: #f7f5f5;
   --grey: #bababa;
@@ -304,4 +304,9 @@ footer a {
   margin: 10px 5px;
   text-decoration: none;
   font-weight: 600;
+}
+
+footer a:hover {
+  scale: 1.05;
+  transition: 0.5s;
 }

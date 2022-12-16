@@ -1,6 +1,6 @@
 /*Sección de servicios*/
 
-div .servicios {
+.servicios {
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -122,7 +122,6 @@ div .servicios {
   list-style: none;
   padding-top: 10px;
 }
-
 
 .servicios__list-item {
   display: flex;
