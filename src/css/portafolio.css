@@ -208,3 +208,7 @@
   right: 16px;
   width: 100px;
 }
+
+a::before {
+  background: none;
+}

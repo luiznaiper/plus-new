@@ -12,14 +12,14 @@
 }
 
 .portfolio-container .portfolio-container__card {
-  width: 45rem;
-  height: 25rem;
+  width: 50rem;
+  height: 30rem;
 }
 
 .portfolio-container .portfolio-container__card .pic1,
 .portfolio-container .portfolio-container__card .pic2,
 .portfolio-container .portfolio-container__card .pic3,
 .portfolio-container .portfolio-container__card .pic4 {
-  width: 45rem;
-  height: 25rem;
+  width: 50rem;
+  height: 30rem;
 }
