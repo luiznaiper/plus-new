@@ -1,7 +1,12 @@
 /*Portafolio*/
+.portfolio-container {
+  background-image: url('../images/home/fondo-homepage-plus.jpg');
+}
+
 .portfolio {
   width: 100vw;
   height: 100vh;
+  background-color: var(--black);
 }
 
 .portfolio-container i {

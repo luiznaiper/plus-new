@@ -1,0 +1,41 @@
+/*Portafolio*/
+.portfolio-container {
+  background-image: url('../images/home/fondo-homepage-plus-tablet.jpg');
+}
+
+.portfolio-container .portfolio-container__card {
+  margin: 1rem 0;
+}
+
+/* .portfolio-container .portfolio-container__card:first-child {
+  position: absolute;
+  top: 2rem;
+}
+
+.portfolio-container .portfolio-container__card:nth-child(2) {
+  position: absolute;
+  top: 27.5rem;
+}
+
+.portfolio-container .portfolio-container__card:nth-child(3) {
+  position: absolute;
+  top: 52.5rem;
+}
+
+.portfolio-container .portfolio-container__card:nth-child(4) {
+  position: absolute;
+  top: 80rem;
+} */
+
+.portfolio-container .portfolio-container__card {
+  width: 45rem;
+  height: 25rem;
+}
+
+.portfolio-container .portfolio-container__card .pic1,
+.portfolio-container .portfolio-container__card .pic2,
+.portfolio-container .portfolio-container__card .pic3,
+.portfolio-container .portfolio-container__card .pic4 {
+  width: 45rem;
+  height: 25rem;
+}
