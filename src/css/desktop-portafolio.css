@@ -1,21 +1,25 @@
-/*Portafolio*/
+.portfolio-container-1-2,
+.portfolio-container-3-4 {
+  display: flex;
+}
+
+.portfolio-container .portfolio-container__card {
+  margin: 1rem 3rem;
+}
+
 .portfolio-container {
-  background-image: url('../images/home/fondo-homepage-plus-tablet.jpg');
+  background-image: url('../images/home/fondo-homepage-plus-desktop.jpg');
 }
 
 .portfolio-container .portfolio-container__card {
-  margin: 1rem 0;
-}
-
-.portfolio-container .portfolio-container__card {
-  width: 50rem;
-  height: 30rem;
+  width: 45rem;
+  height: 25rem;
 }
 
 .portfolio-container .portfolio-container__card .pic1,
 .portfolio-container .portfolio-container__card .pic2,
 .portfolio-container .portfolio-container__card .pic3,
 .portfolio-container .portfolio-container__card .pic4 {
-  width: 50rem;
-  height: 30rem;
+  width: 45rem;
+  height: 25rem;
 }
