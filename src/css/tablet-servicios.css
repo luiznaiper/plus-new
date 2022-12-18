@@ -7,6 +7,7 @@ h1 {
 
 .servicios-info-container span {
   font-size: 2rem;
+  display: block;
 }
 
 .servicios-info-container p {
@@ -31,5 +32,3 @@ h1 {
 .servicios__caja-de-servicios-content li {
   font-size: 1.6rem;
 }
-
-
