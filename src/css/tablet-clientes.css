@@ -1,0 +1,35 @@
+.clientes {
+  height: 80vh;
+}
+
+.clients-container__slider-area {
+  padding-top: 4rem;
+}
+
+.clientes img {
+  width: 15rem;
+}
+
+.testimonios-container {
+  margin-top: 15rem;
+}
+.main-testimonios-container {
+  height: 20vh;
+}
+
+.testimonios-slide p {
+  padding: 0 16rem;
+  font-size: 2rem;
+}
+
+.swiper-btn {
+  display: flex !important;
+}
+
+.swiper-button-next {
+  right: 85px !important;
+}
+
+.swiper-button-prev {
+  left: 85px !important;
+}

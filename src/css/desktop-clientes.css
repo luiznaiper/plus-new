@@ -1,0 +1,37 @@
+.clientes {
+  height: 70vh;
+}
+
+.clients-container h2 {
+  margin-top: 10rem;
+}
+
+.clients-container__slider-area {
+  padding-top: 1rem;
+}
+
+.clientes img {
+  width: 8rem;
+}
+
+br {
+  display: none;
+}
+
+.testimonios-slide p {
+  padding: 0 20rem;
+}
+.testimonios-container {
+  margin-top: 10rem;
+  max-width: 1200px;
+}
+
+.swiper-button-next {
+  left: 105rem !important;
+  top: 13rem !important;
+}
+
+.swiper-button-prev {
+  left: 9rem !important;
+  top: 13rem !important;
+}

@@ -3,7 +3,7 @@
 }
 
 .desktop-container {
-  background-color: rgba(0, 0, 0, 0.7);
+  background: var(--black);
   display: flex;
   height: 10vh;
   align-items: center;
@@ -12,6 +12,7 @@
   width: 100%;
   z-index: 999;
   padding: 2rem;
+  top: 0;
 }
 
 .desktop-container img {

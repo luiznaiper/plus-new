@@ -34,7 +34,6 @@
 .clientes img {
   width: 90px;
   border-radius: 50%;
-  margin-right: 20px;
 }
 
 /*Testimonios*/
@@ -56,7 +55,7 @@
   position: relative;
   max-width: 900px;
   width: 100%;
-  padding: 50px 0;
+  padding: 4rem 0;
   overflow: hidden;
 }
 
@@ -76,11 +75,11 @@
 }
 
 .testimonios-slide p {
-  text-align: center;
-  padding: 0 100px;
+  padding: 0 4rem;
   font-size: 1.4rem;
   font-weight: 300;
   font-style: italic;
+  text-align: justify;
 }
 .testimonios-slide strong {
   font-weight: 400;
