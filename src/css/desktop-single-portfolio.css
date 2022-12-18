@@ -1,0 +1,42 @@
+.container__up-text {
+  margin-bottom: 0;
+}
+
+.container__up-text h4 {
+  margin-top: 2rem;
+}
+
+.ia-container figure {
+  width: 20rem;
+}
+
+.ia-container input:checked ~ figure {
+  left: 20rem;
+}
+
+.ia-container figcaption span {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.next-project-btn {
+  flex-direction: row;
+}
+
+.main-btn,
+.secondary-btn {
+  margin-bottom: 0;
+  margin-left: 3rem;
+}
+
+.ia-container figure {
+  left: 7rem;
+}
+
+.ia-container-4 .ia-container figure {
+  left: 16rem;
+}
+
+.ia-container-5 .ia-container figure {
+  left: 12rem;
+}
