@@ -4,6 +4,7 @@
   --main-text-color: #323232;
   --secondary-text-color: #77787a;
   --black: #1f1f1f;
+  --pure-black: #010101;
   --just-white: #fff;
   --soft-white: #f7f5f5;
   --grey: #bababa;
@@ -294,7 +295,8 @@ footer {
   justify-content: center;
   width: 100%;
   bottom: 0;
-  position: absolute;
+  position: relative;
+  font-size: 1rem;
 }
 
 footer div {
