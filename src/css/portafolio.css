@@ -1,6 +1,10 @@
 /*Portafolio*/
 .portfolio-container {
-  background-image: url('../images/home/fondo-homepage-plus.jpg');
+  background-image: url('../images/home/fondo-homepage-plus.png');
+  background-color: var(--pure-black);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolio {
