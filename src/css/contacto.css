@@ -243,6 +243,7 @@ select.form-control[multiple] {
 
 textarea.form-control {
   height: auto;
+  font-family: inherit;
 }
 
 .submit-form {
@@ -3578,11 +3579,6 @@ textarea.form-control {
   }
 }
 
-.text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
-    'Courier New', monospace !important;
-}
-
 .text-justify {
   text-align: justify !important;
 }
@@ -3904,7 +3900,6 @@ body {
   line-height: 1.8;
   font-weight: normal;
   background: var(--pure-black);
-  color: #666666;
 }
 
 a {
@@ -3933,7 +3928,6 @@ h5,
 .h5 {
   line-height: 1.5;
   font-weight: 400;
-  font-family: 'Poppins', Arial, sans-serif;
   color: #000;
 }
 
@@ -4115,25 +4109,6 @@ textarea.form-control {
 
 #contactForm .form-control {
   font-size: 16px;
-}
-
-#message {
-  resize: vertical;
-}
-
-#form-message-warning,
-#form-message-success {
-  display: none;
-}
-
-#form-message-warning {
-  color: red;
-}
-
-#form-message-success {
-  color: #28a745;
-  font-size: 20px;
-  font-weight: 700;
 }
 
 .submitting {
