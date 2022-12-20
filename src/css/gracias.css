@@ -1,5 +1,4 @@
 .thanks-page {
-  background-color: var(--black);
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -7,6 +6,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: var(--pure-black);
+  background-image: url('../images/home/fondo-homepage-plus.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .thanks-page .thanks-page__text-container {
