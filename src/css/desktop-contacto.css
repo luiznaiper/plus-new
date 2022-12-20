@@ -1,0 +1,7 @@
+.contactForm .row {
+  justify-content: center;
+}
+
+.contactForm .col-md-12 {
+  width: 60% !important;
+}
