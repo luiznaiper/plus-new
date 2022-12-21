@@ -4008,6 +4008,7 @@ textarea.form-control {
   width: 100%;
   margin-bottom: 25px;
   padding: 0 20px;
+  font-family: Arial;
 }
 @media (min-width: 768px) {
   .dbox {
