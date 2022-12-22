@@ -15,8 +15,8 @@
   top: 0;
 }
 
-.desktop-container img {
-  width: 15rem;
+.desktop-container svg {
+  width: 20rem;
   margin-left: 5rem;
 }
 

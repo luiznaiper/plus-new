@@ -1,5 +1,5 @@
 main {
-  background-image: url('../images/home/fondo-homepage-plus-desktop.png');
+  background-image: url('../images/fondo-homepage-plus-desktop.webp');
   background-size: cover;
 }
 
@@ -15,6 +15,6 @@ h1 {
   margin-right: 4rem;
 }
 
-.main__logo-plus img {
+.main__logo-plus {
   display: none;
 }

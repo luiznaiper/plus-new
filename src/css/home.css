@@ -7,7 +7,7 @@ main {
   align-items: center;
   justify-content: center;
   background-color: var(--pure-black);
-  background-image: url('../images/home/fondo-homepage-plus.png');
+  background-image: url('../images/fondo-homepage-plus.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,11 +16,11 @@ main {
 .main__logo-plus {
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 7rem;
 }
 
-.main__logo-plus img {
-  width: 150px;
+.main__logo-plus svg {
+  width: 25rem;
 }
 
 .main__type-section {

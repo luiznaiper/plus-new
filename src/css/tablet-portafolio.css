@@ -1,6 +1,6 @@
 /*Portafolio*/
 .portfolio-container {
-  background-image: url('../images/home/fondo-homepage-plus-tablet.png');
+  background-image: url('../images/fondo-homepage-plus-tablet.webp');
 }
 
 .portfolio-container .portfolio-container__card {
@@ -19,4 +19,3 @@
   width: 45rem;
   height: 23rem;
 }
-
