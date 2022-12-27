@@ -17,29 +17,29 @@
 
 @keyframes animate {
   0% {
-    transform: translate3d(-3300px, 0, 0);
+    transform: translate3d(-330rem, 0, 0);
   }
   100% {
-    transform: translate3d(300px, 0, 0);
+    transform: translate3d(30rem, 0, 0);
   }
 }
 
 .clients-container h2 {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .clients-container__logo {
   animation: animate 45s alternate linear infinite;
 }
 
 .clientes img {
-  width: 90px;
+  width: 9rem;
   border-radius: 50%;
 }
 
 /*Testimonios*/
 
 .testimonios h2 {
-  margin: 20px 0;
+  margin: 2rem 0;
 }
 
 .main-testimonios-container {
@@ -53,15 +53,15 @@
 
 .testimonios-container {
   position: relative;
-  max-width: 900px;
+  max-width: 90rem;
   width: 100%;
   padding: 4rem 0;
   overflow: hidden;
 }
 
 .testimonios-image img {
-  height: 170px;
-  width: 170px;
+  height: 17rem;
+  width: 17rem;
   object-fit: contain;
   border-radius: 50%;
 }
@@ -109,9 +109,9 @@
 .swiper-btn {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  transform: translateY(30px);
-  height: 40px;
-  width: 40px !important;
+  transform: translateY(3rem);
+  height: 4rem;
+  width: 4rem !important;
   display: none !important;
 }
 

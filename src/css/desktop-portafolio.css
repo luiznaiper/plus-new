@@ -5,7 +5,7 @@
 
 .portfolio-container-1-2,
 .portfolio-container-3-4 {
-  display: flex;
+  display: flex;  
 }
 
 .portfolio-container .portfolio-container__card {
