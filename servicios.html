@@ -489,11 +489,11 @@
       </div>
     </section>
     <footer>
-      <span
+      <span id="date"
         >&copy;
         <script type="text/JavaScript">
 
-          document.write(new Date().getFullYear());
+          document.getElementById('date').innerHTML = (new Date().getFullYear());
         </script>
         <strong>Plus Marketing</strong> | Derechos reservados</span
       >
