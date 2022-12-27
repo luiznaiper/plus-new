@@ -22,7 +22,7 @@
   transform: scale(0.1);
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 .portfolio-container h2 {
   pointer-events: none;
@@ -38,48 +38,48 @@
 }
 .portfolio-container .portfolio-container__card {
   position: relative;
-  width: 300px;
-  height: 180px;
+  width: 30rem;
+  height: 18rem;
   background-color: #fff;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .portfolio-container .portfolio-container__card:before {
   content: '';
   z-index: 99;
   position: absolute;
-  top: -10px;
-  left: 32px;
+  top: -1rem;
+  left: 3.2rem;
   display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 16px;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 1.6rem;
   background-color: #e6e5e1;
 }
 .portfolio-container .portfolio-container__card:after {
   content: '';
   z-index: 99;
   position: absolute;
-  bottom: -10px;
-  left: 32px;
+  bottom: -1rem;
+  left: 3.2rem;
   display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 16px;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 1.6rem;
   background-color: #e6e5e1;
 }
 .portfolio-container .portfolio-container__card ul {
   z-index: 99;
   position: absolute;
-  left: 39px;
-  top: 5px;
+  left: 3.9rem;
+  top: 0.5rem;
   list-style-type: none;
 }
 .portfolio-container .portfolio-container__card ul li {
-  width: 2px;
-  height: 2px;
-  border-radius: 2px;
-  margin: 6px 0;
+  width: 0.2rem;
+  height: 0.2rem;
+  border-radius: 0.2rem;
+  margin: 0.6rem 0;
   background-color: #e6e5e1;
 }
 .portfolio-container .portfolio-container__card h2 {
@@ -94,47 +94,47 @@
 .portfolio-container .portfolio-container__card .fa-arrow-right {
   z-index: 100;
   position: absolute;
-  right: 75px;
-  bottom: 25px;
-  font-size: 40px;
+  right: 7.5rem;
+  bottom: 2.5rem;
+  font-size: 4rem;
   cursor: pointer;
 }
 
 .portfolio-container .portfolio-container__card .pic1 {
   z-index: 100;
-  width: 400px;
-  height: 180px;
+  width: 40rem;
+  height: 18rem;
   background-image: url('../images/portafolio/portafolio-de-marketing.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
 .portfolio-container .portfolio-container__card .pic2 {
   z-index: 100;
-  width: 400px;
-  height: 180px;
+  width: 40rem;
+  height: 18rem;
   background-image: url('../images/portafolio/portafolio-de-desarrollo-web.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
 .portfolio-container .portfolio-container__card .pic3 {
   z-index: 100;
-  width: 400px;
-  height: 180px;
+  width: 40rem;
+  height: 18rem;
   background-image: url('../images/portafolio/portafolio-de-diseno-grafico.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
 .portfolio-container .portfolio-container__card .pic4 {
   z-index: 100;
-  width: 400px;
-  height: 180px;
+  width: 40rem;
+  height: 18rem;
   background-image: url('../images/portafolio/portafolio-de-produccion-audiovisual.jpg');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
 .portfolio-container .portfolio-container__card .social {
   position: absolute;
-  left: 60px;
+  left: 6rem;
   top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,9 +144,9 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 180px;
-  height: 64px;
-  border-radius: 80px;
+  width: 18rem;
+  height: 6.4rem;
+  border-radius: 8rem;
 }
 .portfolio-container .portfolio-container__card .social i:nth-of-type(1) {
   -webkit-transition-delay: 0.4s;
@@ -171,13 +171,13 @@
 }
 .portfolio-container .portfolio-container__card .portfolio-clicker {
   position: absolute;
-  right: 14px;
-  bottom: 14px;
-  width: 30px;
-  height: 30px;
+  right: 1.4rem;
+  bottom: 1.4rem;
+  width: 3rem;
+  height: 3rem;
   background-color: #00a69f;
   border: none;
-  border-radius: 30px;
+  border-radius: 3rem;
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
@@ -208,9 +208,9 @@
 
 .dr {
   position: absolute;
-  bottom: 16px;
-  right: 16px;
-  width: 100px;
+  bottom: 1.6rem;
+  right: 1.6rem;
+  width: 10rem;
 }
 
 a::before {
