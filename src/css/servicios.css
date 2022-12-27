@@ -21,6 +21,7 @@ h1 {
 .servicios-info-container p {
   padding: 0 2rem 1rem 2rem;
   text-align: justify;
+  font-family: Arial;
 }
 
 .servicios span {
@@ -67,6 +68,7 @@ h1 {
   border-radius: 15px;
   margin: 0 10px;
   transition: 0.5s;
+  font-family: Arial;
 }
 
 .servicios__caja-de-servicios-box {
@@ -112,6 +114,7 @@ h1 {
   margin-bottom: 15px;
   margin-top: 5px;
   color: var(--main-color);
+  font-family: 'Raleway';
 }
 
 .servicios__caja-de-servicios-content ul {

@@ -286,6 +286,7 @@ a:hover::before {
 
 /*Footer*/
 footer {
+  font-family: Arial;
   height: 10vh;
   background: var(--black);
   color: var(--just-white);
