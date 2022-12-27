@@ -23,13 +23,13 @@ html {
 /*General styles*/
 h1,
 h2 {
-  margin-top: 50px;
+  margin-top: 5rem;
   font-size: 2rem;
   text-align: center;
   font-weight: 800;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  padding: 0 10px;
+  padding: 0 1rem;
 }
 
 a {
@@ -44,9 +44,9 @@ a::before {
   background-color: hsla(175, 100%, 34%, 0.5);
   position: absolute;
   left: 0;
-  bottom: 3px;
+  bottom: 0.3rem;
   width: 100%;
-  height: 8px;
+  height: 0.8rem;
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }
@@ -98,7 +98,7 @@ a:hover::before {
   top: 0;
   bottom: 0;
   left: 0;
-  right: -15px;
+  right: -1.5rem;
   background: var(--main-color);
   transform-origin: 0 0;
   transform: skew(-14deg) translateX(-120%);
@@ -130,7 +130,7 @@ a:hover::before {
 /* Apparition effect on links */
 .main-nav a {
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateY(-1rem);
 }
 
 .main-nav.is-open a {
@@ -161,9 +161,9 @@ a:hover::before {
 }
 .main-nav a {
   display: block;
-  padding: 12px 0;
+  padding: 1.2rem 0;
   color: var(--just-white);
-  font-size: 1.4em;
+  font-size: 3.6rem;
   text-decoration: none;
   font-weight: bold;
 }
@@ -171,9 +171,9 @@ a:hover::before {
 /* Burger Style: @see: https://codepen.io/CreativeJuiz/full/oMZNXy */
 .open-main-nav {
   position: absolute;
-  top: 15px;
-  padding-top: 20px;
-  right: 15px;
+  top: 1.5rem;
+  padding-top: 2rem;
+  right: 1.5rem;
   z-index: 1000;
   background: none;
   border: 0;
@@ -185,8 +185,8 @@ a:hover::before {
 .burger {
   position: relative;
   display: block;
-  width: 28px;
-  height: 4px;
+  width: 2.8rem;
+  height: 0.4rem;
   margin: 0 auto;
   background: var(--just-white);
   transform: skew(5deg);
@@ -208,25 +208,25 @@ a:hover::before {
 }
 
 .burger:after {
-  transform: translateY(-12px) translateX(-2px) skew(-20deg);
+  transform: translateY(-1.2rem) translateX(-0.2rem) skew(-20deg);
   background-color: var(--main-color);
 }
 
 .burger:before {
-  transform: translateY(-16px) skew(-10deg);
+  transform: translateY(-1.6rem) skew(-10deg);
 }
 
 /* Toggle State part */
 .is-open .burger {
-  transform: skew(5deg) translateY(-8px) rotate(-45deg);
+  transform: skew(5deg) translateY(-0.8rem) rotate(-45deg);
 }
 
 .is-open .burger:before {
-  transform: translateY(0px) skew(-10deg) rotate(75deg);
+  transform: translateY(0rem) skew(-10deg) rotate(75deg);
 }
 
 .is-open .burger:after {
-  transform: translateY(-12px) translateX(10px) skew(-20deg);
+  transform: translateY(-1.2rem) translateX(1rem) skew(-20deg);
   opacity: 0;
 }
 
@@ -235,17 +235,17 @@ a:hover::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 50px;
-  border-radius: 30px;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 3rem;
   font-size: 1.8rem;
   color: var(--just-white);
-  border: 2px solid var(--main-color);
+  border: 0.2rem solid var(--main-color);
 }
 
 .main-btn {
   background-color: transparent;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
   font-weight: 700;
 }
 
@@ -255,27 +255,27 @@ a:hover::before {
 
 .secondary-btn {
   background-color: var(--main-color);
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
   font-weight: 700;
 }
 
 .secondary-btn:hover {
   background-color: transparent;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
   font-weight: 700;
 }
 
 .square-main-btn {
   position: relative;
   display: inline-block;
-  padding: 6px 15px;
+  padding: 0.6rem 1.5rem;
   background: var(--main-color);
-  border-radius: 5px;
+  border-radius: 0.5rem;
   text-decoration: none;
   color: white;
-  margin-top: 25px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  border: 2px solid var(--main-color);
+  margin-top: 2.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  border: 0.2rem solid var(--main-color);
   font-size: 2rem;
 }
 
@@ -307,7 +307,7 @@ footer div {
 
 footer a {
   color: var(--main-color);
-  margin: 10px 5px;
+  margin: 1rem 0.5rem;
   text-decoration: none;
   font-weight: 600;
 }

@@ -1,3 +1,8 @@
+.portfolio {
+  height: 90vh;
+  margin-top: 10vh;
+}
+
 .portfolio-container-1-2,
 .portfolio-container-3-4 {
   display: flex;
