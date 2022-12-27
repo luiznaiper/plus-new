@@ -132,7 +132,7 @@ h1 {
   align-items: center;
 }
 
-.servicios__list-item i {
-  padding-top: 10px;
-  margin-right: 5px;
+.servicios__list-item svg {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
 }
