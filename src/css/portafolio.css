@@ -11,6 +11,7 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--black);
+  font-family: Arial;
 }
 
 .portfolio-container i {
@@ -104,7 +105,7 @@
   z-index: 100;
   width: 40rem;
   height: 18rem;
-  background-image: url('../images/portafolio/portafolio-de-marketing.jpg');
+  background-image: url('../images/portafolio/portafolio-de-marketing.webp');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
@@ -112,7 +113,7 @@
   z-index: 100;
   width: 40rem;
   height: 18rem;
-  background-image: url('../images/portafolio/portafolio-de-desarrollo-web.jpg');
+  background-image: url('../images/portafolio/portafolio-de-desarrollo-web.webp');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
@@ -120,7 +121,7 @@
   z-index: 100;
   width: 40rem;
   height: 18rem;
-  background-image: url('../images/portafolio/portafolio-de-diseno-grafico.jpg');
+  background-image: url('../images/portafolio/portafolio-de-diseno-grafico.webp');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
@@ -128,7 +129,7 @@
   z-index: 100;
   width: 40rem;
   height: 18rem;
-  background-image: url('../images/portafolio/portafolio-de-produccion-audiovisual.jpg');
+  background-image: url('../images/portafolio/portafolio-de-produccion-audiovisual.webp');
   background-size: 100% 100%;
   filter: grayscale(100%);
 }
