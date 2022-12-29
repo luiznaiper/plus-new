@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^plusmarketing.mx [NC]
+RewriteRule ^(.*)$ https://www.plusmarketing.mx/$1 [L,R=301]
