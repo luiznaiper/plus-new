@@ -4222,3 +4222,8 @@ h3 {
 .whatsapp-icon {
   margin-top: 13px;
 }
+
+#service {
+  color: #495057 !important;
+  margin-bottom: 2rem;
+}

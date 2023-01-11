@@ -203,6 +203,28 @@
                           </div>
                         </div>
                         <div class="col-md-12">
+                          <div class="form-group select-wrapper">
+                            <select
+                              class="form-control"
+                              name="service"
+                              id="service"
+                            >
+                              <option>Servicio</option>
+                              <option value="marketing">Marketing</option>
+                              <option value="desarrollo-web">
+                                Desarrollo Web
+                              </option>
+                              <option value="diseno-grafico">
+                                Diseño Gráfico
+                              </option>
+                              <option value="produccion-audiovisual">
+                                Producción audiovisual
+                              </option>
+                              <option value="otro">otro</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
                           <div class="form-group">
                             <textarea
                               name="message"
@@ -211,10 +233,12 @@
                               cols="30"
                               rows="8"
                               placeholder="Mensaje"
+                              minlength="15"
                               required
                             ></textarea>
                           </div>
                         </div>
+
                         <input
                           type="hidden"
                           name="_next"
